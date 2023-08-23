@@ -36,7 +36,7 @@ This project provides tools to price options in the financial markets. The main 
    stock = Stock(1.0, 0.25, 0.0075, 0.2186)
    option = Option(306/365, 1.0, 'call')
    r = 0.0529
-   n = 84
+   n = 100
    price = binomial_option_price(stock, option, r, n)
    print("Option Price:", price)
    ```
@@ -49,7 +49,7 @@ This project provides tools to price options in the financial markets. The main 
    stock = Stock(1.0, 0.25, 0.0075, 0.2186)
    option = Option(306/365, 1.0, 'call')
    r = 0.0529
-   n = 84
+   n = 100
    price = LSM_american_option_price(stock, option, r, n)
    print("Option Price:", price)
    ```
