@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from core.models import Stock, Option
+from models.models import Stock, Option
 from pricers.mc_pricer import LSM_american_option_price
 
 stock = Stock(1.0, 0.25, 0.0075, 0.2186)

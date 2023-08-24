@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.stats as stats
-from core.models import Stock, Option
+from models.models import Stock, Option
 
 def black_scholes_with_dividend(stock, option, r):
     T = option.expiry

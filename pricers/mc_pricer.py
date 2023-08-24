@@ -1,5 +1,5 @@
 import numpy as np
-from core.models import Stock, Option
+from models.models import Stock, Option
 
 def generate_paths(S, r, q, sigma, T, n, num_simulations, dividend_dates):
     delta_t = T/n

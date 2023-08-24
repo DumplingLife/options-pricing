@@ -1,4 +1,4 @@
-from core.models import Stock, Option
+from models.models import Stock, Option
 from math import exp, sqrt
 
 def calculate_p(gain, up, down):
