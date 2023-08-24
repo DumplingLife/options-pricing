@@ -65,3 +65,7 @@ This project provides tools to price options in the financial markets. The main 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Comments
+
+I made this project public on August 23, 2023 for recruiting.
